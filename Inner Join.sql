@@ -15,6 +15,18 @@ FROM tableEmployees
 JOIN tableDepartments
 ON tableEmployees.DepID=tableDepartments.DepID
 
+SELECT * FROM tableDepartments
+
+SELECT * FROM tableEmployees
+
+SELECT EmployeeID, EmployeeName, Phone, DepartmentName
+FROM tableDepartments
+JOIN tableEmployees
+ON tableDepartments.DepID=tableEmployees.DepID
+
+
+
+----------------------------------------------------------
 Use AdventureWorks2017
 Go
 
